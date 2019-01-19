@@ -16,7 +16,7 @@ public class Input implements KeyListener {
 
 	@Override
 	public void keyPressed(KeyEvent e) {
-		if(e.getKeyCode() == KeyEvent.VK_SPACE && spaceReleased) {
+		if(e.getKeyCode() == KeyEvent.VK_UP && spaceReleased) {
 			spacePressed = true;
 			spaceReleased = false;
 		}
@@ -24,7 +24,7 @@ public class Input implements KeyListener {
 
 	@Override
 	public void keyReleased(KeyEvent e) {
-		if(e.getKeyCode() == KeyEvent.VK_SPACE) {
+		if(e.getKeyCode() == KeyEvent.VK_UP) {
 			spaceReleased = true;
 		}
 	}

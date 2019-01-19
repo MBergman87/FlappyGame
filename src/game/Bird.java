@@ -27,8 +27,8 @@ public class Bird implements Updatable, Renderable {
 		
 		try {
 			
-			flapUp = Sprite.getSprite("bird_up.png");
-			flapDown = Sprite.getSprite("bird_down.png");
+			flapUp = Sprite.getSprite("man_down.png");
+			flapDown = Sprite.getSprite("man_up.png");
 			
 		}catch(IOException ex) {
 			System.err.println(ex.getMessage());

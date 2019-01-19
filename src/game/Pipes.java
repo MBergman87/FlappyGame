@@ -85,7 +85,7 @@ public class Pipes implements Updatable, Renderable {
 	
 	@Override
 	public void render(Graphics2D g, float interpolation) {
-		g.setColor(Color.RED);
+		g.setColor(Color.GREEN);
 		
 		// pipe 1
 		g.fillRect((int) (x1 + (xVel * interpolation)), 0, pipeWidth, (int) y1);
